@@ -76,12 +76,14 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
+
 window.onload = function() {
   const languageToggle = document.getElementById('language-toggle');
   if (languageToggle) {
     languageToggle.addEventListener('change', function() {
       if (this.checked) {
-        window.location.href = 'esthome.html';
+        window.location.href = 'home.html';
       }
     });
   } else {
